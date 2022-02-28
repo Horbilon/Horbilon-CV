@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #003248;
+  font-family: Roboto;
+}
+
+.blue{
+  background-color: #003248;
+  color: #dcdcde;
+}
+
+.silver{
+  background-color: #dcdcde;
+}
+
+h1{
+  padding-top: 0.5em;
+}
+
+.pad-top{
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+}

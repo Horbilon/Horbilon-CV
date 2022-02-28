@@ -1,0 +1,31 @@
+<div class="container silver pad-top">
+  <h1>Skills</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="pad-top">Programming</h3>
+      <ul >
+        <li *ngFor="let lang of Programming">{{ lang }}</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3 class="pad-top">Systems Administration</h3>
+      <ul>
+        <li *ngFor="let sys of Admin">{{ sys }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="pad-top">Databases</h3>
+      <ul>
+        <li *ngFor="let DB of DataBases">{{ DB }}</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3 class="pad-top">Networking</h3>
+      <ul>
+        <li *ngFor="let IP of Networking">{{ IP }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

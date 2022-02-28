@@ -1,0 +1,11 @@
+<div class="container silver pad-top">
+  <h1>Education</h1>
+  <div *ngFor="let course of Education">
+    <h3 class="pad-top">{{course.type}} | {{course.title}}</h3>
+    <h6>{{course.institution}} - {{course.local}}</h6>
+    <h6>From {{course.startDate}} to {{course.endDate}}</h6>
+    <ul >
+      <li *ngFor="let desc of course.description">{{ desc }}</li>
+    </ul>
+  </div>
+</div>

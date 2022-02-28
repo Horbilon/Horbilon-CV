@@ -1,0 +1,11 @@
+<div class="container silver pad-top">
+  <h1 >Experience</h1>
+  <div *ngFor="let work of Experience">
+    <h3 class="pad-top">{{work.title}} | {{work.institution}}</h3>
+    <h6>{{work.local}}</h6>
+    <h6>From {{work.startDate}} to {{work.endDate}}</h6>
+    <ul>
+      <li *ngFor="let desc of work.description">{{ desc }}</li>
+    </ul>
+  </div>
+</div>

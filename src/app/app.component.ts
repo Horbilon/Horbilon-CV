@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Horbilon-CV';
+  loadedApp = 'cv';
+
+  onNavigate(appShow: string) {
+    this.loadedApp = appShow;
+
+  }
 }

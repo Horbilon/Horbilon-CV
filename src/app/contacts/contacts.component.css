@@ -1,0 +1,26 @@
+
+
+.bot-pad{
+  padding-top: 1em;
+}
+
+
+.svg{
+  position: relative;
+}
+
+.second{
+  left: 25px;
+  bottom: 18px;
+}
+
+.third{
+  left: 0px;
+  bottom: 36px;
+}
+
+a{
+  color: #dcdcde;
+  text-decoration: none;
+  font-weight: bold;
+}
