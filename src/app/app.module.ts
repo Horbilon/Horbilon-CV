@@ -9,6 +9,8 @@ import { EducationComponent } from './education/education.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     SkillsComponent,
     EducationComponent,
     AboutMeComponent,
-    ContactsComponent
+    ContactsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MdbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
